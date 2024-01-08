@@ -1,0 +1,29 @@
+button {
+    border: 1px solid black;
+    font-size: 1.4em;
+    color: white;
+    transition: 0.2s ease;
+    border-radius: 15px;
+}
+button:hover {
+    border: 1px solid white;
+    color: black;
+    transition: 0.2s ease;
+}
+.equals {
+    background-color: rgb(60, 100, 161);
+    grid-row: span 2;
+}
+.clear {
+    grid-column: span 2;
+    background-color: rgb(216, 67, 67);
+}
+.zero {
+    grid-column: span 2;
+}
+.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .decimal {
+    background-color: rgb(95, 95, 95);
+}
+.add, .subtract, .multiply, .divide {
+    background-color: gray;
+}

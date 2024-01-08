@@ -1,0 +1,13 @@
+.Calculator {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2fr;
+    height: 100%;
+}
+
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 6px;
+    gap: 5px;
+}
